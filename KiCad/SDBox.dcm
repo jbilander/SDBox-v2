@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G17
+D Single Schmitt trigger buffer
+K Single Schmitt trigger buffer
+F https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf
+$ENDCMP
+#
+$CMP 74LVC3G17
+D Triple non-inverting Schmitt trigger with 5V tolerant input
+K Triple Buf Schmitt LVC CMOS 5V tolerant input
+F https://assets.nexperia.com/documents/data-sheet/74LVC3G17.pdf
+$ENDCMP
+#
+$CMP Arduino_Nano_V3
+D Arduino Nano 3.x
+K Arduino Nano
+F https://content.arduino.cc/assets/NanoV3.3_sch.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Card_Socket
+D Micro SD Card Socket
+K connector SD microsd
+$ENDCMP
+#
+$CMP T491D227K010AT
+D T491D SMD-Tantalum, 220µF, 10V
+K T491D SMD-Tantalum 220µF 10V
+F https://cdn-reichelt.de/documents/datenblatt/B300/KEM_T491_DB-EN.pdf
+$ENDCMP
+#
+#End Doc Library
