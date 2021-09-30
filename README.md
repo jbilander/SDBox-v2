@@ -38,7 +38,7 @@ SDBox v2 for Amiga, hardware compatible with the new updated card-detect (insert
 
 ***
 
-Start by soldering the `U2` and `U3` ICs, then the passives, the card holder, micro-usb jack, DB25M and so on, nothing complicated, but do skip the ICSP-header if you are going to house this in a case...
+Start by soldering the `U2` and `U3` ICs, then the passives, the card holder, micro-usb jack, DB25M and so on, nothing complicated, but do skip the 6-pin ICSP-header on the Nano if you're going to put this in a 3D-printed case...
 
 ***
 
@@ -54,7 +54,7 @@ Start by soldering the `U2` and `U3` ICs, then the passives, the card holder, mi
 
 ***
 
-At this stage, before you solder the Nano in place, you should verify that `+5V` via the Micro-USB jack looks ok...
+At this stage, before you solder the Nano down to the board, you should verify that `+5V` via the Micro-USB jack is ok...
 
 ***
 
@@ -70,11 +70,11 @@ At this stage, before you solder the Nano in place, you should verify that `+5V`
 
 ***
 
-Now the Nano, validate `+5V` and `+3.3V` looks ok at the Nano:
+Now the Nano, validate `+5V` and `+3.3V` is ok on the Nano:
 
 Powering the MicroSD card directly from the 3.3V-pin of the Arduino, are you nuts?
 
-Well, typical SD card current consumption is `~30mA` in SPI mode.
+Well, maybe but typical SD card current consumption is `~30mA` in SPI mode.
 The Arduino Nano taps `3.3V` from the internal LDO `3V3OUT` supply of the `FT232RL` USB-chip, or in case of the clones the `CH340` USB-chip. 
 
     FT232RL: Up to 50mA can be drawn from this pin to power external logic if required.
@@ -117,7 +117,7 @@ Time to build and flash the firmware:
 
 ***
 
-And we need to 3D-print a case for it before we put the LEDs in:
+And we need to 3D-print a case for it before we put the LEDs in, don't we?...
 
 (STL-files available in the DSM folder)
 
