@@ -72,6 +72,13 @@ At this stage, before you solder the Nano in place, you should verify that +5V v
 
 Now the Nano, validate +5V and +3.3V looks ok at the Nano:
 
+Powering the MicroSD card directly from the 3.3V-pin of the Arduino, are you nuts?
+
+Well, typical SD card current consumption is ~30mA in SPI mode.
+The Arduino Nano taps 3.3V from the internal LDO 3V3OUT supply of the FT232RL USB-chip, or in case of the clones the CH340 USB-chip. 
+
+    FT232RL: Up to 50mA can be drawn from this pin to power external logic if required.
+    CH340G: Maximum output current is 30mA, and that voltage stays rather stable up to about 30mA.
 ***
 
 
