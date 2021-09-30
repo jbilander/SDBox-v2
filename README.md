@@ -74,7 +74,7 @@ Now the Nano, validate `+5V` and `+3.3V` is ok on the Nano:
 
 Powering the MicroSD card directly from the 3.3V-pin of the Arduino, are you nuts?
 
-Well, maybe but typical SD card current consumption is `~30mA` in SPI mode.
+Well, maybe, but typical SD card current consumption is `~30mA` in SPI mode.
 The Arduino Nano taps `3.3V` from the internal LDO `3V3OUT` supply of the `FT232RL` USB-chip, or in case of the clones the `CH340` USB-chip. 
 
     FT232RL: Up to 50mA can be drawn from this pin to power external logic if required.
@@ -273,7 +273,7 @@ Cut and wirestrip the micro-usb cable. Verify polarity, normally black is GND an
 </a>
 
 ***
-Some shrink tube on, a bit overkill maybe but hey it's a guide, no shortcuts, I even crimped and soldered the GND-joint :)
+Some shrink tube on, a bit overkill maybe but hey it's a guide, no shortcuts, I even crimped AND soldered the GND-joint :)
 ***
 
 <a href="images/SDBox_get_5V_from_external_floppy_port_cable_pic11.jpg">
