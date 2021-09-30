@@ -38,7 +38,7 @@ SDBox v2 for Amiga, hardware compatible with the new updated card-detect (insert
 
 ***
 
-Start by soldering the U2 and U3 ICs, then the passives, the card holder, micro-usb jack and so on, nothing complicated...
+Start by soldering the U2 and U3 ICs, then the passives, the card holder, micro-usb jack, DB25M and so on, nothing complicated, but do skip the ICSP-header if you are going to house this in a case...
 
 ***
 
@@ -85,9 +85,108 @@ Now the Nano, validate +5V and +3.3V looks ok at the Nano:
 <img src="images/SDBox-v2_pic22.jpg" width="256" height="192">
 </a>
 
+***
 
+Time to build and flash the firmware:
+
+***
+
+<a href="images/SDBox-v2_pic23.jpg">
+<img src="images/SDBox-v2_pic23.jpg" width="256" height="192">
+</a>
+<a href="images/SDBox-v2_flashing_Nano_pic1.jpg">
+<img src="images/SDBox-v2_flashing_Nano_pic1.jpg" width="256" height="186">
+</a>
+<a href="images/SDBox-v2_flashing_Nano_pic2.jpg">
+<img src="images/SDBox-v2_flashing_Nano_pic2.jpg" width="256" height="154">
+</a>
 <br />
+<a href="images/SDBox-v2_flashing_Nano_pic3.jpg">
+<img src="images/SDBox-v2_flashing_Nano_pic3.jpg" width="178" height="192">
+</a>
+<a href="images/SDBox-v2_flashing_Nano_pic4.jpg">
+<img src="images/SDBox-v2_flashing_Nano_pic4.jpg" width="256" height="223">
+</a>
+
+***
+
+And we need to 3D-print a case for it before we put the LEDs in:
+
+(STL-files available in the DSM folder)
+
+***
+
+<a href="images/SDBox-v2_pic24.jpg">
+<img src="images/SDBox-v2_pic24.jpg" width="256" height="192">
+</a>
+<a href="images/SDBox-v2_pic25.jpg">
+<img src="images/SDBox-v2_pic25.jpg" width="256" height="192">
+</a>
+<a href="images/SDBox-v2_pic26.jpg">
+<img src="images/SDBox-v2_pic26.jpg" width="256" height="192">
+</a>
+
+***
+
+Final result:
 <br />
+<a href="images/SDBox-v2_pic9.jpg">
+<img src="images/SDBox-v2_pic9.jpg" width="154" height="116">
+</a>
+<a href="images/SDBox-v2_pic10.jpg">
+<img src="images/SDBox-v2_pic10.jpg" width="154" height="116">
+</a>
+<a href="images/SDBox-v2_pic11.jpg">
+<img src="images/SDBox-v2_pic11.jpg" width="154" height="116">
+</a>
+<a href="images/SDBox-v2_pic12.jpg">
+<img src="images/SDBox-v2_pic12.jpg" width="154" height="116">
+</a>
+
+***
+
+Comparison with v1, look at the difference in size:
+<br />
+<a href="images/SDBox-v2_pic27.jpg">
+<img src="images/SDBox-v2_pic27.jpg" width="154" height="116">
+</a>
+<a href="images/SDBox-v2_pic28.jpg">
+<img src="images/SDBox-v2_pic28.jpg" width="154" height="116">
+</a>
+<a href="images/SDBox-v2_pic29.jpg">
+<img src="images/SDBox-v2_pic29.jpg" width="154" height="116">
+</a>
+<a href="images/SDBox-v2_pic30.jpg">
+<img src="images/SDBox-v2_pic30.jpg" width="154" height="116">
+</a>
+
+***
+
+Now time to build the new _spisd.device_ driver, add _+kick13_ to the _build.bat_ if default is set to build for AmigaOS 2.0...
+
+(VBCC for Windows I downloaded from here (Thanks: Leffmann for the installer), https://eab.abime.net/showthread.php?t=83113 )
+
+***
+
+<a href="images/SDBox-v2_VBCC_pic1.jpg">
+<img src="images/SDBox-v2_VBCC_pic1.jpg" width="154" height="128">
+</a>
+<a href="images/SDBox-v2_VBCC_pic2.jpg">
+<img src="images/SDBox-v2_VBCC_pic2.jpg" width="154" height="56">
+</a>
+<a href="images/SDBox-v2_VBCC_pic3.jpg">
+<img src="images/SDBox-v2_VBCC_pic3.jpg" width="154" height="86">
+</a>
+<a href="images/SDBox-v2_VBCC_pic4.jpg">
+<img src="images/SDBox-v2_VBCC_pic4.jpg" width="154" height="101">
+</a>
+
+***
+
+### BOM
+
+
+***
 
 ### Howto get 5V from the Amigas external floppy port _(250 mA max)_, let's make a cable...
 
