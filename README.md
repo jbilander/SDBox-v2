@@ -1,6 +1,6 @@
 # SDBox v2
 ***
-SDBox for Amiga version 2, hardware compatible with the new updated card-detect (insert/eject interrupt) firmware written by N.Ekström available here: https://github.com/niklasekstrom/amiga-par-to-spi-adapter
+SDBox v2 for Amiga, hardware compatible with the new updated card-detect (insert/eject interrupt) firmware written by N.Ekström available here: https://github.com/niklasekstrom/amiga-par-to-spi-adapter
 ***
 
 <br />
@@ -13,10 +13,78 @@ SDBox for Amiga version 2, hardware compatible with the new updated card-detect 
 <a href="images/SDBox-v2_pic3.png">
 <img src="images/SDBox-v2_pic3.png" width="233" height="280">
 </a>
+<br />
+<a href="images/SDBox-v2_pic4.png">
+<img src="images/SDBox-v2_pic4.png" width="154" height="116">
+</a>
+<a href="images/SDBox-v2_pic5.png">
+<img src="images/SDBox-v2_pic5.png" width="154" height="116">
+</a>
+<a href="images/SDBox-v2_pic6.png">
+<img src="images/SDBox-v2_pic6.png" width="154" height="116">
+</a>
+<a href="images/SDBox-v2_pic7.jpg">
+<img src="images/SDBox-v2_pic7.jpg" width="154" height="116">
+</a>
 
 ***
 
 ### Howto build the SDBox Rev2...
+
+<a href="images/SDBox-v2_pic13.jpg">
+<img src="images/SDBox-v2_pic13.jpg" width="512" height="384">
+</a>
+
+
+***
+
+Start by soldering the U2 and U3 ICs, then the passives, the card holder, micro-usb jack and so on, nothing complicated...
+
+***
+
+<a href="images/SDBox-v2_pic14.jpg">
+<img src="images/SDBox-v2_pic14.jpg" width="256" height="192">
+</a>
+<a href="images/SDBox-v2_pic15.jpg">
+<img src="images/SDBox-v2_pic15.jpg" width="256" height="192">
+</a>
+<a href="images/SDBox-v2_pic16.jpg">
+<img src="images/SDBox-v2_pic16.jpg" width="256" height="192">
+</a>
+
+***
+
+At this stage, before you solder the Nano in place, you should verify that +5V via the Micro-USB jack looks ok...
+
+***
+
+<a href="images/SDBox-v2_pic17.jpg">
+<img src="images/SDBox-v2_pic17.jpg" width="256" height="192">
+</a>
+<a href="images/SDBox-v2_pic18.jpg">
+<img src="images/SDBox-v2_pic18.jpg" width="256" height="192">
+</a>
+<a href="images/SDBox-v2_pic19.jpg">
+<img src="images/SDBox-v2_pic19.jpg" width="256" height="192">
+</a>
+
+***
+
+Now the Nano, validate +5V and +3.3V looks ok at the Nano:
+
+***
+
+
+<a href="images/SDBox-v2_pic20.jpg">
+<img src="images/SDBox-v2_pic20.jpg" width="256" height="192">
+</a>
+<a href="images/SDBox-v2_pic21.jpg">
+<img src="images/SDBox-v2_pic21.jpg" width="256" height="192">
+</a>
+<a href="images/SDBox-v2_pic22.jpg">
+<img src="images/SDBox-v2_pic22.jpg" width="256" height="192">
+</a>
+
 
 <br />
 <br />
