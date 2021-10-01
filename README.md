@@ -29,7 +29,7 @@ SDBox v2 for Amiga, hardware compatible with the new updated card-detect (insert
 
 ***
 
-Here is a short video clip showing the new card detect feature:
+Here is a short video clip showing the new card detect feature: <br />
 https://drive.google.com/file/d/11R0idJcfvWwsGSfzbPFG1xpoupvCA6SC/view?usp=sharing
 
 ***
