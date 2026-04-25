@@ -1,6 +1,8 @@
 # SDBox v2
 ***
 SDBox v2 for Amiga, hardware compatible with the new updated card-detect (insert/eject interrupt) firmware written by N.Ekström available here: https://github.com/niklasekstrom/amiga-par-to-spi-adapter
+
+This version is superseded by the new SDBox-v3 here: https://github.com/jbilander/SDBox-v3
 ***
 
 <br />
